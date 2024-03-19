@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    width: 100%;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(37,0,37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.container p{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.container p span{
+    color:rgb(243, 126, 243);
+}
+
+.container ul li{
+    font-size: 1.5rem;
+}
