@@ -170,6 +170,12 @@ header li a:hover{
         width: 100%;
         padding: 0
     }
+    .info h3{
+        font-size: .8rem;
+    }
+    .info h3 span{
+        font-size: 1rem;
+    }
     .info h1{
         font-size: 1.5rem
     }
@@ -181,5 +187,30 @@ header li a:hover{
     }
     .info h1{
         font-size: 1rem
+    }
+}
+
+@media screen and (max-width:350px){
+    header li a{
+        font-size: .7rem;
+    }
+    .info h1{
+        font-size: .8rem
+    }
+}
+
+@media screen and (max-width:299px){
+    header li a{
+        font-size: .5rem;
+    }
+    .info h1{
+        font-size: .7rem
+    }
+
+    .info h3{
+        font-size: .5rem;
+    }
+    .info h3 span{
+        font-size: .6rem;
     }
 }
