@@ -33,7 +33,8 @@ header li{
 
 header li a{
     font-size: 1.05rem;
-    transition:all .5s;
+    transition: all .5s;
+    border-bottom: 2px solid rgb(243, 126, 243);
 }
 
 header li a:hover{
