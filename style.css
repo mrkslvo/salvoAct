@@ -20,10 +20,11 @@ body{
 
 header{
     width: 100%;
-    padding: 10px 30px;
+    padding: 15px 30px;
     display: flex;
     gap: 1rem;
     position: fixed;
+    background-color: rgb(243, 126, 243);
 }
 
 header li{
@@ -36,8 +37,8 @@ header li a{
 }
 
 header li a:hover{
-    color: rgb(243, 126, 243);
-    border-bottom: 2px solid rgb(243, 126, 243,0.5);
+    color: rgb(37,0,37);
+    border-bottom: 2px solid rgb(37,0,37);
 }
 
 .info{
@@ -72,4 +73,78 @@ header li a:hover{
 
 .info p span{
     color: rgb(243, 126, 243);
+}
+
+
+@media screen and (max-width:950px) {
+    .info{
+        width: 100%;
+        border: 1px solid white;
+        padding: 0 100px;
+    }
+
+    .info h1{
+        font-size: 2.5rem
+    }
+}
+@media screen and (max-width:800px) {
+
+    .info h3{
+        font-size: .8rem;
+    }
+
+    .info h3 span{
+        font-size: 1rem;
+    }
+    .info h1{
+        font-size: 1.7rem
+    }
+
+    .info p {
+        width: 90%;
+        font-size: .7rem;
+        word-spacing: 2px;
+    }
+}
+
+@media screen and (max-width:650px){
+    .info h1{
+        font-size: 1.4rem
+    }
+}
+
+@media screen and (max-width:600px){
+    .info h3{
+        font-size: 1rem;
+    }
+    .info h3 span{
+        font-size: .8rem;
+    }
+    .info h1{
+        font-size: 1.2rem
+    }
+
+    .info p {
+        width: 90%;
+        font-size: .6rem;
+        word-spacing: 1px;
+    }
+}
+
+@media screen and (max-width:550px){
+    .info h3{
+        font-size: 1rem;
+    }
+    .info h3 span{
+        font-size: .8rem;
+    }
+    .info h1{
+        font-size: 1rem
+    }
+
+    .info p {
+        width: 90%;
+        font-size: .6rem;
+        word-spacing: 1px;
+    }
 }
