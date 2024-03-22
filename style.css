@@ -84,67 +84,92 @@ header li a:hover{
     }
 
     .info h1{
-        font-size: 2.5rem
+        font-size: 2.6rem
     }
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:850px) {
+    .info{
+        padding: 0 50px;
+    }
 
     .info h3{
-        font-size: .8rem;
+        font-size: 1.3rem;
     }
 
     .info h3 span{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .info h1{
-        font-size: 1.7rem
+        font-size: 2.5rem
+    }
+
+    .info p {
+        width: 90%;
+        font-size: 1rem;
+        word-spacing: 2px;
+    }
+}
+
+@media screen and (max-width:700px){
+    .info h1{
+        font-size: 2rem
+    }
+    .info h3{
+        font-size: 1rem;
+    }
+
+    .info h3 span{
+        font-size: 1.2rem;
+    }
+    .info p {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width:600px){
+
+    .info h3{
+        font-size: 1rem;
+    }
+    .info h3 span{
+        font-size: .8rem;
+    }
+    .info h1{
+        font-size: 1.8rem
     }
 
     .info p {
         width: 90%;
         font-size: .7rem;
-        word-spacing: 2px;
-    }
-}
-
-@media screen and (max-width:650px){
-    .info h1{
-        font-size: 1.4rem
-    }
-}
-
-@media screen and (max-width:600px){
-    .info h3{
-        font-size: 1rem;
-    }
-    .info h3 span{
-        font-size: .8rem;
-    }
-    .info h1{
-        font-size: 1.2rem
-    }
-
-    .info p {
-        width: 90%;
-        font-size: .6rem;
         word-spacing: 1px;
     }
 }
 
 @media screen and (max-width:550px){
     .info h3{
-        font-size: 1rem;
+        font-size: .9rem;
     }
     .info h3 span{
-        font-size: .8rem;
+        font-size: 1.1rem;
     }
     .info h1{
-        font-size: 1rem
+        font-size: 1.5rem
+    }
+}
+
+@media screen and (max-width:499px){
+    header li a{
+        font-size: 1rem;
     }
 
-    .info p {
-        width: 90%;
-        font-size: .6rem;
-        word-spacing: 1px;
+    .info{
+        width: 100%;
+        padding: 0
+    }
+
+    
+
+    .info h1{
+        font-size: 1.5rem
     }
 }
