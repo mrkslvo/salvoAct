@@ -144,6 +144,10 @@ header li a:hover{
         font-size: .7rem;
         word-spacing: 1px;
     }
+
+    header li{
+        padding: 10px 5px;
+    }
 }
 
 @media screen and (max-width:550px){
@@ -162,15 +166,20 @@ header li a:hover{
     header li a{
         font-size: 1rem;
     }
-
     .info{
         width: 100%;
         padding: 0
     }
-
-    
-
     .info h1{
         font-size: 1.5rem
+    }
+}
+
+@media screen and (max-width:400px){
+    header li a{
+        font-size: .8rem;
+    }
+    .info h1{
+        font-size: 1rem
     }
 }
